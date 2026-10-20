@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data and experiment artifacts
+data/
+experiments/logs/
+experiments/checkpoints/
+*.pyc
+.venv/
+.idea/
+.vscode/
+*.pth
+*.pt

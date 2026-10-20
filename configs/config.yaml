@@ -9,3 +9,5 @@ model_name: "resnet18"       # Options: resnet18 / mobilenet_v3 / vit
 freeze_backbone: true        # true means linear probing; false means fine-tuning
 seed: 42
 output_dir: "experiments"
+lr_scheduler: "cosine"       # Options: cosine / step / none
+pretrained: true             # Use torchvision DEFAULT pretrained weights

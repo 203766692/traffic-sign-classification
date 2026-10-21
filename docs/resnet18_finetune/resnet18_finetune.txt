@@ -1,0 +1,22 @@
+(finsa) C:\Users\86159\Desktop\traffic-sign-classification>python scripts/train.py --config configs/config_gpu.yaml
+使用设备：cuda
+Epoch 1/10 | train_loss=1.2558 | train_acc=0.7215 | val_loss=0.2922 | val_acc=0.9474 | val_f1=0.8981 | lr=0.000010
+已保存最佳模型：val_acc=0.9474，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 2/10 | train_loss=0.1412 | train_acc=0.9819 | val_loss=0.0958 | val_acc=0.9804 | val_f1=0.9679 | lr=0.000009
+已保存最佳模型：val_acc=0.9804，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 3/10 | train_loss=0.0443 | train_acc=0.9952 | val_loss=0.0607 | val_acc=0.9861 | val_f1=0.9783 | lr=0.000008
+已保存最佳模型：val_acc=0.9861，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 4/10 | train_loss=0.0217 | train_acc=0.9975 | val_loss=0.0478 | val_acc=0.9865 | val_f1=0.9797 | lr=0.000007
+已保存最佳模型：val_acc=0.9865，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 5/10 | train_loss=0.0127 | train_acc=0.9987 | val_loss=0.0380 | val_acc=0.9908 | val_f1=0.9877 | lr=0.000005
+已保存最佳模型：val_acc=0.9908，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 6/10 | train_loss=0.0085 | train_acc=0.9991 | val_loss=0.0339 | val_acc=0.9906 | val_f1=0.9873 | lr=0.000003
+Epoch 7/10 | train_loss=0.0062 | train_acc=0.9994 | val_loss=0.0327 | val_acc=0.9912 | val_f1=0.9886 | lr=0.000002
+已保存最佳模型：val_acc=0.9912，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 8/10 | train_loss=0.0046 | train_acc=0.9998 | val_loss=0.0289 | val_acc=0.9918 | val_f1=0.9890 | lr=0.000001
+已保存最佳模型：val_acc=0.9918，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 9/10 | train_loss=0.0039 | train_acc=0.9999 | val_loss=0.0289 | val_acc=0.9920 | val_f1=0.9894 | lr=0.000000
+已保存最佳模型：val_acc=0.9920，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 10/10 | train_loss=0.0041 | train_acc=0.9997 | val_loss=0.0291 | val_acc=0.9919 | val_f1=0.9895 | lr=0.000000
+
+(finsa) C:\Users\86159\Desktop\traffic-sign-classification>

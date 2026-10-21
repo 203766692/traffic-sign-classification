@@ -1,11 +1,11 @@
 data_root: "data/gtsrb"
 num_classes: 43
 image_size: 224
-batch_size: 64
-num_epochs: 30
-learning_rate: 0.0001
-model_name: "mobilenet_v3"    # 👈 唯一修改
-freeze_backbone: true
+batch_size: 32                # 👈 微调吃显存，改小一点防爆显存
+num_epochs: 10                # 👈 微调收敛快，10轮足够
+learning_rate: 0.00001        # 👈 必须调小学习率！
+model_name: "resnet18"        # 👈 改回 ResNet18
+freeze_backbone: false        # 👈 取消冻结，开启微调
 seed: 42
 output_dir: "experiments"
 lr_scheduler: "cosine"

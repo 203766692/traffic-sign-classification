@@ -1,0 +1,13 @@
+data_root: "data/gtsrb"
+num_classes: 43
+image_size: 224
+batch_size: 64
+num_epochs: 30
+learning_rate: 0.0001
+model_name: "mobilenet_v3"    # 👈 唯一修改
+freeze_backbone: true
+seed: 42
+output_dir: "experiments"
+lr_scheduler: "cosine"
+pretrained: true
+num_workers: 4

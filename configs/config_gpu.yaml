@@ -1,14 +1,13 @@
-# Dataset and experiment configuration
 data_root: "data/gtsrb"
 num_classes: 43
 image_size: 224
-batch_size: 64               # 👈 改为 64（8G显存跑ResNet18完全没问题，如果跑的时候报错OOM再改回32）
-num_epochs: 30               # 👈 改为 30（用GPU跑得快，多跑几轮效果更好，20也行）
+batch_size: 64
+num_epochs: 30
 learning_rate: 0.0001
-model_name: "resnet18"       # 先跑这个，跑完改 "mobilenet_v3" 再跑一次
-freeze_backbone: true        # 线性探测；如果想微调，改成 false
+model_name: "mobilenet_v3"    # 👈 唯一修改
+freeze_backbone: true
 seed: 42
 output_dir: "experiments"
 lr_scheduler: "cosine"
 pretrained: true
-num_workers: 4               # 👈 新加这一行，设为 4 提升 Windows 下的数据加载速度
+num_workers: 4

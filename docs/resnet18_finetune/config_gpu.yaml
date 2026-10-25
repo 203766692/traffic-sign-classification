@@ -1,0 +1,13 @@
+data_root: "data/gtsrb"
+num_classes: 43
+image_size: 224
+batch_size: 32                # 👈 微调吃显存，改小一点防爆显存
+num_epochs: 10                # 👈 微调收敛快，10轮足够
+learning_rate: 0.00001        # 👈 必须调小学习率！
+model_name: "resnet18"        # 👈 改回 ResNet18
+freeze_backbone: false        # 👈 取消冻结，开启微调
+seed: 42
+output_dir: "experiments"
+lr_scheduler: "cosine"
+pretrained: true
+num_workers: 4

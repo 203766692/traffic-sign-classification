@@ -1,0 +1,21 @@
+(finsa) C:\Users\86159\Desktop\traffic-sign-classification>python scripts/train.py --config configs/config_gpu.yaml
+使用设备：cuda
+Epoch 1/10 | train_loss=2.0233 | train_acc=0.4849 | val_loss=0.8452 | val_acc=0.7797 | val_f1=0.5646 | lr=0.000010
+已保存最佳模型：val_acc=0.7797，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 2/10 | train_loss=0.4421 | train_acc=0.8823 | val_loss=0.2901 | val_acc=0.9188 | val_f1=0.8534 | lr=0.000009
+已保存最佳模型：val_acc=0.9188，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 3/10 | train_loss=0.1720 | train_acc=0.9550 | val_loss=0.1838 | val_acc=0.9452 | val_f1=0.9041 | lr=0.000008
+已保存最佳模型：val_acc=0.9452，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 4/10 | train_loss=0.0947 | train_acc=0.9757 | val_loss=0.1450 | val_acc=0.9542 | val_f1=0.9193 | lr=0.000007
+已保存最佳模型：val_acc=0.9542，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 5/10 | train_loss=0.0634 | train_acc=0.9833 | val_loss=0.1222 | val_acc=0.9613 | val_f1=0.9326 | lr=0.000005
+已保存最佳模型：val_acc=0.9613，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 6/10 | train_loss=0.0449 | train_acc=0.9882 | val_loss=0.1153 | val_acc=0.9636 | val_f1=0.9374 | lr=0.000003
+已保存最佳模型：val_acc=0.9636，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 7/10 | train_loss=0.0364 | train_acc=0.9907 | val_loss=0.1089 | val_acc=0.9656 | val_f1=0.9404 | lr=0.000002
+已保存最佳模型：val_acc=0.9656，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 8/10 | train_loss=0.0318 | train_acc=0.9918 | val_loss=0.1079 | val_acc=0.9658 | val_f1=0.9419 | lr=0.000001
+已保存最佳模型：val_acc=0.9658，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
+Epoch 9/10 | train_loss=0.0296 | train_acc=0.9922 | val_loss=0.1082 | val_acc=0.9653 | val_f1=0.9425 | lr=0.000000
+Epoch 10/10 | train_loss=0.0285 | train_acc=0.9926 | val_loss=0.1067 | val_acc=0.9663 | val_f1=0.9431 | lr=0.000000
+已保存最佳模型：val_acc=0.9663，路径=C:\Users\86159\Desktop\traffic-sign-classification\experiments\checkpoints\best_model.pth
